@@ -1,1 +1,23 @@
-/* Start CSS */
+.name {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img.myPhoto {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/08/28/18/25/seattle-912274_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: gray;
+}
