@@ -1,18 +1,6 @@
-.name {
-  text-align: center;
-  padding: 30px;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-img.myPhoto {
-  height: 150px;
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
+/** {
+  border: 1px solid orange;
+}*/
 
 body {
   background-image: url(https://cdn.pixabay.com/photo/2015/08/28/18/25/seattle-912274_1280.jpg);
@@ -20,4 +8,44 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-color: gray;
+}
+
+.name {
+  text-align: center;
+  padding: 30px;
+  magin: 5%;
+  color: #696969;
+  font-size: 55px;
+}
+
+img.myPhoto {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  color: #696969;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 5%;
+}
+
+.bio, .edu, .job, .goal, .top10 {
+  text-align: center;
+  padding: 0% 15%;
+  font-size: 30px;
+  color: #696969;
+}
+
+ul {
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
 }
